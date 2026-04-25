@@ -1,0 +1,155 @@
+{
+  "name": "ShopEasy",
+  "tagline": "Your Smart Shopping Companion",
+  "description": "Your personal shopping assistant helping you find the best products, deals, and answers to all your shopping questions.",
+  "categories": [
+    {
+      "id": "mobiles",
+      "name": "Mobiles",
+      "emoji": "📱",
+      "subcategories": [
+        {
+          "id": "samsung",
+          "name": "Samsung",
+          "products": [
+            {"id": "s24-ultra", "name": "Samsung S24 Ultra", "price": "₹1,29,999", "features": ["256GB", "200MP Camera", "Titanium Frame"], "description": "Latest flagship with AI features"},
+            {"id": "s23-fe", "name": "Samsung S23 FE", "price": "₹49,999", "features": ["128GB", "50MP Camera", "Water Resistant"], "description": "Premium mid-range smartphone"},
+            {"id": "a54", "name": "Samsung Galaxy A54", "price": "₹26,999", "features": ["128GB", "6.4inch Display", "5000mAh"], "description": "Great value mid-range phone"}
+          ]
+        },
+        {
+          "id": "vivo",
+          "name": "Vivo",
+          "products": [
+            {"id": "x100-pro", "name": "Vivo X100 Pro", "price": "₹89,999", "features": ["256GB", "50MP Camera", "120W Charging"], "description": "Camera champion with fast charging"},
+            {"id": "v30-pro", "name": "Vivo V30 Pro", "price": "₹45,999", "features": ["256GB", "50MP Portrait", "80W Charging"], "description": "Perfect for portrait photography"}
+          ]
+        },
+        {
+          "id": "oppo",
+          "name": "Oppo",
+          "products": [
+            {"id": "find-x7-pro", "name": "Oppo Find X7 Pro", "price": "₹79,999", "features": ["256GB", "50MP Camera", "100W Charging"], "description": "Flagship with Hasselblad camera"},
+            {"id": "reno-12", "name": "Oppo Reno 12", "price": "₹32,999", "features": ["256GB", "6.7inch Display", "5000mAh"], "description": "Sleek design with great display"}
+          ]
+        },
+        {
+          "id": "other",
+          "name": "Other Brands",
+          "products": [
+            {"id": "oneplus-12", "name": "OnePlus 12", "price": "₹64,999", "features": ["256GB", "50MP Camera", "5400mAh"], "description": "Smooth performance with clean UI"},
+            {"id": "nothing-phone", "name": "Nothing Phone 2", "price": "₹39,999", "features": ["256GB", "Glyph Lights", "4700mAh"], "description": "Unique design with Glyph interface"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "watches",
+      "name": "Watches",
+      "emoji": "⌚",
+      "subcategories": [
+        {
+          "id": "smart-watches",
+          "name": "Smart Watches",
+          "products": [
+            {"id": "apple-watch", "name": "Apple Watch Series 9", "price": "₹42,900", "features": ["45mm", "Blood Oxygen", "ECG"], "description": "Premium smartwatch with health features"},
+            {"id": "galaxy-watch", "name": "Samsung Galaxy Watch 6", "price": "₹22,999", "features": ["44mm", "Sleep Tracking", "GPS"], "description": "Great for fitness tracking"},
+            {"id": "noise-watch", "name": "Noise ColorFit Pro", "price": "₹2,499", "features": ["1.6inch Display", "7-day Battery", "IP68"], "description": "Affordable fitness companion"}
+          ]
+        },
+        {
+          "id": "analog-watches",
+          "name": "Analog Watches",
+          "products": [
+            {"id": "fastrack-analog", "name": "Fastrack Analog", "price": "₹1,495", "features": ["Leather Strap", "Stainless Steel"], "description": "Trendy casual watch"},
+            {"id": "sonata-analog", "name": "Sonata Analog", "price": "₹899", "features": ["2-year Warranty", "Water Resistant"], "description": "Reliable everyday watch"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "shirts",
+      "name": "Shirts",
+      "emoji": "👔",
+      "subcategories": [
+        {
+          "id": "printed-shirts",
+          "name": "Printed Shirts",
+          "products": [
+            {"id": "floral-print", "name": "Floral Printed Shirt", "price": "₹899", "features": ["100% Cotton", "Regular Fit"], "description": "Perfect for casual outings"},
+            {"id": "geometric-print", "name": "Geometric Print Shirt", "price": "₹749", "features": ["Cotton Blend", "Slim Fit"], "description": "Modern geometric patterns"}
+          ]
+        },
+        {
+          "id": "plain-shirts",
+          "name": "Plain Shirts",
+          "products": [
+            {"id": "white-plain", "name": "White Formal Shirt", "price": "₹699", "features": ["100% Cotton", "Regular Fit"], "description": "Classic white formal shirt"},
+            {"id": "blue-plain", "name": "Blue Casual Shirt", "price": "₹599", "features": ["Cotton Blend", "Slim Fit"], "description": "Versatile casual blue shirt"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tshirts",
+      "name": "T-Shirts",
+      "emoji": "👕",
+      "subcategories": [
+        {
+          "id": "printed-tshirts",
+          "name": "Printed T-Shirts",
+          "products": [
+            {"id": "graphic-tee", "name": "Graphic Printed Tee", "price": "₹499", "features": ["100% Cotton", "Regular Fit"], "description": "Trendy graphic prints"},
+            {"id": "band-tee", "name": "Band Graphic Tee", "price": "₹599", "features": ["Cotton Blend", "Oversized"], "description": "Cool band merchandise style"}
+          ]
+        },
+        {
+          "id": "oversized-tshirts",
+          "name": "Oversized T-Shirts",
+          "products": [
+            {"id": "oversized-basic", "name": "Oversized Basic Tee", "price": "₹699", "features": ["100% Cotton", "Oversized Fit"], "description": "Relaxed streetwear look"},
+            {"id": "oversized-washed", "name": "Washed Oversized", "price": "₹799", "features": ["Cotton Blend", "Drop Shoulder"], "description": "Vintage washed finish"}
+          ]
+        },
+        {
+          "id": "plain-tshirts",
+          "name": "Plain T-Shirts",
+          "products": [
+            {"id": "white-tee", "name": "White Plain Tee", "price": "₹349", "features": ["100% Cotton", "Regular Fit"], "description": "Essential white tee"},
+            {"id": "black-tee", "name": "Black Plain Tee", "price": "₹349", "features": ["100% Cotton", "Regular Fit"], "description": "Classic black tee"},
+            {"id": "navy-tee", "name": "Navy Plain Tee", "price": "₹399", "features": ["Cotton Blend", "Regular Fit"], "description": "Cool navy blue option"}
+          ]
+        }
+      ]
+    }
+  ],
+  "company": {
+    "name": "ShopEasy",
+    "mission": "Making shopping simple and accessible for everyone",
+    "contact": {
+      "email": "support@shopeasy.com",
+      "website": "www.shopeasy.com",
+      "phone": "1800-123-4567"
+    }
+  },
+  "greeting": {
+    "en": "Hello! Welcome to ShopEasy! 🛒 I'm your personal shopping assistant. I can help you find amazing products, compare prices, and answer your questions. How can I help you today?",
+    "hi": "नमस्ते! ShopEasy में आपका स्वागत है! 🛒 मैं आपका personal shopping assistant हूं। मैं आपको amazing products खोजने, prices compare करने, और सवालों के जवाब देने में मदद कर सकता हूं। आज मैं आपकी कैसे मदद कर सकता हूं?"
+  },
+  "menu_options": [
+    {"id": "browse", "label": "Browse Categories", "description": "Explore Mobiles, Watches, Shirts, T-Shirts", "prompt": "Show me categories"},
+    {"id": "best-deals", "label": "Best Deals", "description": "Check out our best offers", "prompt": "What are your best deals"},
+    {"id": "support", "label": "Customer Support", "description": "Get help with any issue", "prompt": "I need support"},
+    {"id": "exit", "label": "Exit", "description": "End the conversation", "prompt": "Thank you, goodbye"}
+  ],
+  "error_handling": {
+    "not_understood": {
+      "en": "Sorry, I didn't understand that. Could you please try again?",
+      "hi": "माफ कीजिए, मुझे समझ नहीं आया। क्या आप फिर से try कर सकते हैं?"
+    },
+    "max_attempts": {
+      "en": "Sorry for the inconvenience. Please contact our customer support at 1800-123-4567 or visit www.shopeasy.com",
+      "hi": "असुविधा के लिए क्षमा चाहता हूं। कृपया हमारे customer support को 1800-123-4567 पर contact करें"
+    }
+  }
+}
