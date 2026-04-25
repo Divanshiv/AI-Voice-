@@ -1,0 +1,15 @@
+previewsEnabled: false
+
+services:
+  - name: ai-voice-backend
+    type: web
+    runtime: python310
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GEMINI_API_KEY
+        fromServiceSecret: true
+      - key: FRONTEND_URL
+        value: https://frontend-jade-nine-64.vercel.app
+      - key: MONGODB_URI
+        value: ""
