@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, APIRouter
 from fastapi.middleware.cors import CORSMiddleware
 from app.config import get_settings
 from app.routes import chat, health
@@ -15,11 +15,15 @@ def create_app() -> FastAPI:
     
     app.add_middleware(
         CORSMiddleware,
-        allow_origins=[settings.frontend_url, "http://localhost:3000"],
+        allow_origins=["*"],
         allow_credentials=True,
         allow_methods=["*"],
         allow_headers=["*"],
     )
+    
+    @app.get("/")
+    def root():
+        return {"status": "ok", "message": "AI Voice API is running"}
     
     app.include_router(chat.router)
     app.include_router(health.router)
